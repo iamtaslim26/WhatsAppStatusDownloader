@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FacebookActivity">
+
+
+    <ImageView
+        android:id="@+id/normal_pic"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_baseline_facebook_24"
+        android:layout_height="250dp"/>
+
+    <EditText
+        android:id="@+id/fb_url_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        android:hint="Please Enter the Url. . .. "/>
+
+
+
+
+    <Button
+        android:id="@+id/download_fb_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selected_tab"
+        android:textColor="@color/white"
+        android:text="Download"
+        android:textAllCaps="false"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>
